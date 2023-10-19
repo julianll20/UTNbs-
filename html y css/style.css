@@ -1,13 +1,100 @@
 
+body{
+    background-color:#f2f2f2;
+    color: rgb(0, 0, 0);
+    background: url('./assets/img/fondo\ de\ pagina.jpg')
+}
 
 
+
+.encabezados{ 
+    text-align:center;
+    color: rgb(240, 234, 234);
+    border: 5px black solid;
+    background: rgb(0, 59, 43, 0.9)
+   
+  
+}
 
 img{
-    width: 50px; ;
+    width: 600px;
 }
-video{
+.video1{
+    display:flex;
+    justify-content: center;
+     align-items: center;
+    flex-direction: row;
+   font-size: 150%;
+    color:white ;
+    margin-top: 30px;
+margin-bottom: 20px;
+
+}
+
+.img-container{
+    display:flex;
+    justify-content: center;
+     align-items: center;
+    flex-direction: row;
+   font-size: 150%;
+    color:white ;
+
+
+}
+
+section{
+    display:inline-block;
+    justify-content: center;
+     align-items: center;
+    flex-direction: block;
+    
+
+}
+p{
+    
+   display: flex;
+   align-items: center;
+   background-color: #f2f2f2;
+   padding: 5%;
+   font-size: 115%;
+   font-family: 'Merriweather', serif;
+}
+    
+
+
+    .lista{
+ background-color: #f2f2f2 ;
+color: rgb(0, 0, 0);
+width: 500px;
+margin-left: 100px;
+    }
+
+.titulo{
+    color: rgb(253, 251, 251);
+}
+.lista2{
+    background-color: #f2f2f2 ;
+    color: rgb(0, 0, 0);
     width: 500px;
+    margin-left: 100px;
 }
-img{
-    width: 50px;
+.Siglo21{
+    background-color: #f2f2f2 ;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    margin-left: 100px;
+}
+.Campussiglo21{
+
+    display:flex;
+    justify-content: center;
+     align-items: center;
+    flex-direction: row;
+   font-size: 150%;
+    color:white ;
+}
+#Ecoamigable{
+    display:contents;
+    color:rgb(3, 179, 9) ;
+    font-size:200%;
 }
